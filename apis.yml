@@ -1,24 +1,71 @@
 aid: inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science
+
 name: INESC TEC - Institute for Systems and Computer Engineering, Technology and Science
-description: 'INESC TEC - Institute for Systems and Computer Engineering, Technology and Science is a
-  company surfaced via the API Evangelist harvest backlog (source: vc-portfolio) and added to the network
-  as a stub for full-pipeline profiling.'
+
+description: 'INESC TEC - Institute for Systems and Computer Engineering, Technology and Science is a leading research institute in Portugal, focusing on advanced systems and computer engineering, technology development, and scientific innovation. It collaborates with industry and academia to drive cutting‑edge research, develop technology solutions, and foster knowledge transfer across multiple domains, including artificial intelligence, robotics, and telecommunications.'
+
 url: https://raw.githubusercontent.com/api-evangelist/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Research
+- Technology
+- Engineering
+- Innovation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: WellKnown
+  url: well-known/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science-well-known.yml
+- type: Hosts
+  url: hosts/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science-hosts.yml
+- type: SDKs
+  url: packages/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science-packages.yml
+- type: Packages
+  url: packages/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science-packages.yml
+- type: Newsroom
+  url: https://www.inesctec.pt/en/news
+- type: GitHubOrganization
+  url: https://github.com/INESCTEC
+- type: DomainSecurity
+  url: security/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science-domain-security.yml
 - type: Website
   url: https://www.inesctec.pt/en
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-23'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://www.inesctec.pt/en
+    status: 200
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

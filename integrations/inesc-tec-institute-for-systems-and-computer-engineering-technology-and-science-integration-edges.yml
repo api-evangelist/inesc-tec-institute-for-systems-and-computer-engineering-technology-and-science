@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science/integrations
+- https://n8n.io/integrations/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science/
+- https://composio.dev/toolkits/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science
+- https://monid.ai/tools/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science
+checked:
+- https://composio.dev/toolkits/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science
+- https://monid.ai/tools/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science
+- https://n8n.io/integrations/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science/
+- https://zapier.com/apps/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

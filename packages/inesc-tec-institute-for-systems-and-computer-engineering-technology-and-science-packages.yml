@@ -1,0 +1,52 @@
+generated: '2026-10-23'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/INESCTEC
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (inesctec.pt,
+  security/inesc-tec-institute-for-systems-and-computer-engineering-technology-and-science-domain-security.yml) or its accepted GitHub org (INESCTEC).'
+packages:
+- name: api-chat-assistant
+  registry: github
+  url: https://github.com/INESCTEC/api-chat-assistant
+  language: Python
+  official: true
+  version: null
+  published: '2026-02-19'
+  source_repo: https://github.com/INESCTEC/api-chat-assistant
+  evidence: repository in github.com/INESCTEC, whose profile names the provider's domain
+- name: rec-operation-rest-api
+  registry: github
+  url: https://github.com/INESCTEC/rec-operation-rest-api
+  language: Python
+  official: true
+  version: null
+  published: '2025-06-09'
+  source_repo: https://github.com/INESCTEC/rec-operation-rest-api
+  evidence: repository in github.com/INESCTEC, whose profile names the provider's domain
+- name: rec-sizing-rest-api
+  registry: github
+  url: https://github.com/INESCTEC/rec-sizing-rest-api
+  language: Python
+  official: true
+  version: null
+  published: '2025-05-19'
+  source_repo: https://github.com/INESCTEC/rec-sizing-rest-api
+  evidence: repository in github.com/INESCTEC, whose profile names the provider's domain
+- name: tsg-client
+  registry: github
+  url: https://github.com/INESCTEC/tsg-client
+  language: Python
+  official: true
+  version: null
+  published: '2025-03-28'
+  source_repo: https://github.com/INESCTEC/tsg-client
+  evidence: repository in github.com/INESCTEC, whose profile names the provider's domain
+- name: ewh-flex-rest-api
+  registry: github
+  url: https://github.com/INESCTEC/ewh-flex-rest-api
+  language: Python
+  official: true
+  version: null
+  published: '2023-12-15'
+  source_repo: https://github.com/INESCTEC/ewh-flex-rest-api
+  evidence: repository in github.com/INESCTEC, whose profile names the provider's domain

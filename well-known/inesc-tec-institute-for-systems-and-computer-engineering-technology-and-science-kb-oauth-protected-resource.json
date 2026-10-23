@@ -1,0 +1,1 @@
+{"resource":"https://kb.inesctec.pt/mcp","authorization_servers":["https://kb.inesctec.pt"],"scopes_supported":["read","write"],"bearer_methods_supported":["header"]}
